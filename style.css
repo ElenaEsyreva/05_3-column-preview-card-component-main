@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300&family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 95%);
+  }
+.cards{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+}
+.card{
+    width: 200px;
+    height: 400px;
+    padding: 50px;
+ }
+.card.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+.card.suvs{
+    background-color: hsl(184, 100%, 22%);
+ }
+.card.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+.head{
+   color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    line-height: 25px;
+}
+button:hover{
+    margin-top: 80px;
+    width: 150px;
+    height: 40px;
+    background-color: hsl(31, 77%, 52%, 0%);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+   }
+button a:hover{
+    color: hsla(0, 0%, 100%, 0.75);
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+button{
+    margin-top: 80px;
+    width: 150px;
+    height: 40px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%);
+}
+.one{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsl(31, 77%, 52%);
+}
+.two{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsl(184, 100%, 22%);
+}
+.three{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsl(179, 100%, 13%);
+}
